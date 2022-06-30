@@ -22,6 +22,8 @@ services:
     ports:
     #- "127.0.0.1:59988:59988"
     - "59988:59988"
+    - "5683:5683"
+    - "5684:5684"
     container_name: edgex-device-coap
     hostname: edgex-device-coap
     read_only: true
